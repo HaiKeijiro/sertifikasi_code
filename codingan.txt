@@ -1,0 +1,3 @@
+App.jsx -> procedure & function
+js_mastery = intermediate = testing = app.js -> class, property, method, object
+js_mastery = intermediate = oop.js -> inheritance

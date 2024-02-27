@@ -2,6 +2,16 @@ import data from "../backend/data";
 
 import { Card } from "./components/Card";
 
+// Procedure
+// function greet_user() {
+//   let name = prompt("Please enter your name")
+//   alert('Welcome ' + name)
+// }
+
+// Call the function
+// greet_user()
+
+// Function
 function App() {
   return (
     <>
