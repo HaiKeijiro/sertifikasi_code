@@ -9,8 +9,6 @@ app.get("/", (req, res) => {
   res.send("This is homepage!");
 });
 
-
-
 // MongoDB Connection
 mongoose
   .connect(MONGODB_URL)

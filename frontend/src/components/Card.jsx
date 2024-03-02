@@ -23,7 +23,7 @@ export const Card = ({ type, date, title, note }) => {
       <div className="flex justify-between align-middle relative">
         <label
           htmlFor="label"
-          className="bg-black rounded-2xl text-white px-8 py-1"
+          className="bg-black rounded-sm text-white px-8 py-1"
         >
           {type}
         </label>
