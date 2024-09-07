@@ -94,13 +94,13 @@ const PopUpCreate = ({ isOpen, onClose }) => {
               <button
                 type="button"
                 onClick={onClose}
-                className="bg-red-500 text-white px-4 py-2 rounded-sm"
+                className="bg-red-800 text-white px-4 py-2 rounded-sm"
               >
                 Close
               </button>
               <button
                 type="submit"
-                className="bg-green-500 text-white px-4 py-2 rounded-sm"
+                className="bg-green-800 text-white px-4 py-2 rounded-sm"
               >
                 Save
               </button>

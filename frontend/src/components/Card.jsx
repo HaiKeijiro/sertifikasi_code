@@ -23,6 +23,7 @@ export const Card = ({ type, date, title, note, id }) => {
   };
 
   const handleDelete = () => {
+    alert("You've deleted this item")
     setDeleteId(id)
   }
 

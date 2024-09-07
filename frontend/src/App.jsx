@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link} from "react-router-dom";
 import GetData from "./routes/GetData";
 import PopUpCreate from "./components/PopUpCreate";
 
@@ -18,18 +19,25 @@ const App = () => {
       <div className="container m-auto py-5 px-10 space-y-10">
         <div className="flex justify-between mt-5">
           <h1 className="text-4xl font-bold">Notes</h1>
-          <button className="p-3 bg-black text-white font-bold rounded-sm" onClick={openPopUp}>
-            New Note
-          </button>
+          <div className="space-x-10">
+            <button
+              className="p-3 bg-black text-white font-bold rounded-sm"
+              onClick={openPopUp}
+            >
+              New Note
+            </button>
+            <Link to="/sepeda"
+              className="p-3 bg-black text-white font-bold rounded-sm"
+            >
+              Form Master Sepeda
+            </Link>
+          </div>
         </div>
         <div className="grid gap-3 grid-cols-[repeat(auto-fill,minmax(300px,1fr))]">
           <GetData />
         </div>
       </div>
-      <PopUpCreate
-        isOpen={isOpen}
-        onClose={closePopUp}
-      />
+      <PopUpCreate isOpen={isOpen} onClose={closePopUp} />
     </>
   );
 };
